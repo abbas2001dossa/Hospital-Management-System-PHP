@@ -1,0 +1,141 @@
+.collapse ul li a {
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 25px;
+}
+
+
+/* image */
+.bckg{
+    height: 600px;
+    
+}
+
+/* text on the img */
+#showi{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    z-index: 1;
+    border: 2px solid black;
+    background-color: aliceblue;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 9px;
+}
+
+
+#letsGo{
+    border-radius: 9px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    width: 160px;
+    height: 50px;
+
+}
+
+.designation{
+    background-color: antiquewhite;
+    color: black;
+    display: block;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border: 2px solid black ;
+    border-radius : 8px ;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 1000px;
+    justify-content: center;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.designation label{
+    margin-left:30px;
+    /* margin:0px; */
+}
+
+.designation input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+    
+  }
+
+  
+
+
+/* 
+#over{
+    
+    
+    font-size: 50px;
+    width: 350px;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    font-size: 30px ;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    left: 50px; 
+    border:2px solid black; 
+    border-radius: 9px; 
+    
+}
+  
+   */
+
+
+   #title {
+    
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-shadow: 2px 2px 4px #000000;
+    
+    z-index: 1;
+   }
+
+
+
+   /* alert
+    */
+
+    .alert {
+        padding: 20px;
+        background-color: #5aff89;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        height:40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        position: absolute;
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+        border-radius:40px;
+        /* bottom: 30px; */
+      }
+      
+      .closebtn {
+        margin-left: 15px;
+        color: rgb(11, 11, 11);
+        font-weight: bold;
+        border: 2px solid black ;
+        
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      
+  
+
+      /* admin.php */
+
+      
